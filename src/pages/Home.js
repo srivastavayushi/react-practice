@@ -10,6 +10,11 @@ function Home() {
             Increment Counter
           </button>
         </Link>
+        <Link to="/incrementCounterTwo">
+          <button className=" py-6 px-20 text-xl bg-blue-600 rounded-md font-bold text-slate-200 m-10 hover:bg-blue-800">
+            Increment Counter : Sol 2
+          </button>
+        </Link>
       </div>
     </div>
   );
