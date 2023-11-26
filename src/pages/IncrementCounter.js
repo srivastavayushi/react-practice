@@ -16,6 +16,7 @@ export default function IncrementCounter() {
   //     setCounter(counter+1);
   //   }, 1000);
   // };
+  // Link : https://overreacted.io/making-setinterval-declarative-with-react-hooks/
 
   const handleStop = () => {
     clearInterval(intervalIdRef.current);
